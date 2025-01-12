@@ -1,3 +1,113 @@
 body {
   background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
 }
+
+.pictureLinks {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+    font-family: "Lilita One", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 30px;
+}
+
+img {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.fa-linkedin {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #1281db 0%,
+    #024666 5%,
+    #01204e 45%,
+    #04176e 60%,
+    #6687eb 90%
+  );
+  color:whitesmoke;
+  font-size: 200px;
+  padding: 20px;
+  font-size: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: radial-gradient(
+    circle at 30% 15%,
+    #97eefd 0%,
+    #026796 5%,
+    #0d4eb1 45%,
+    #601be0 60%,
+    #6687eb 90%
+  );
+  color: whitesmoke;
+  font-size: 200px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-instagram {
+  color: rgb(226, 228, 230);
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  font-size: 200px;
+  padding: 20px;
+  font-size: 60px;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  margin-top:20px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  margin-top: 50px;
+  color: whitesmoke;
+}
+
+button {
+  background: linear-gradient(rgb(59, 59, 59), rgb(43, 42, 42), rgb(19, 19, 19));
+  width: 450px;
+  margin-top: 8px;
+  border: 0;
+  color: whitesmoke;
+}
+
+
+button:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #302a22 0%,
+    #505050 5%,
+    #2f2f30 45%,
+    #353534 60%,
+    #1d1812 90%
+  );
+}
+
+button:active {
+  background: linear-gradient(0.25turn, #275366, #9ea798, #83531f);
+}
